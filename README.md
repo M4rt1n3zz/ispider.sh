@@ -25,8 +25,13 @@ Run the script with a URL as an argument:
 ```
 ./ispider.sh http://example.com
 ```
-Replace http://example.com with the URL you want to scan.
 
+Can be used with `grep` for clean output for specific domain.
+```
+./ispider.sh example.com |grep "example"
+```
+
+Replace http://example.com with the URL you want to scan.
 
 ## Output
 The script will output:
